@@ -3,11 +3,11 @@ public class Teste_8_arrays {
 
 	public static void main(String[] args) {
 
-		int[] meusInts = new int[10];
-		String[] meusStrings = new String[7];
+//		int[] meusInts = new int[10];
+//		String[] meusStrings = new String[7];
 		Shirt[] meusShirts = new Shirt[3];
 
-		int teste[] = { 1, 2, 3, 4, 5 };
+//		int teste[] = { 1, 2, 3, 4, 5 };
 
 		// int [] [] matriz = new int [4] [7];
 		int[][] matriz = { { 11, 12, 13, 14, 15, 16, 17 },
