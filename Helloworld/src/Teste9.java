@@ -31,24 +31,35 @@ public static void main(String[] args) {
 			sb.append("[" + matriz[n][m] + "]");
 		}
 		
-		
 		System.out.println(sb.toString());
 	}
 	
 	meusShirts[0] = new Shirt(0, "Azul");
 	meusShirts[1] = new Shirt(1, "Amarelo");
-	meusShirts[2] = new Shirt(2, "Ambar");
+	//meusShirts[2] = new Shirt(2, "Ambar");
 	meusShirts[4] = new Shirt(4, "Anil");
 
+	for (int n = 0 ;n < meusShirts.length; n++){
+		if (meusShirts[n] == null){
+			for (int m=n; m < meusShirts.length; m++ ){
+				if (meusShirts[m] != null){
+					meusShirts[n]=meusShirts[m];
+					meusShirts[m]=null;
+					break;
+				}
+			}
+		}
+	}
+	
 	for( Shirt s : meusShirts){
 		
-		
+	
 		if (s !=null)
 			System.out.println(s.Nome());
 		else
 			System.out.println("-Nulo");
 		
-		System.out.println( s!=null?s.Nome():"-Nulo");
+	//	System.out.println( s!=null?s.Nome():"-Nulo");
 		
 	}
 	
