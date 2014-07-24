@@ -1,14 +1,12 @@
-import java.util.Scanner;
-
 
 public class Teste10 {
 
 	public static void main(String[] args) {
 		
 		
-		int o = 0;
+//		int o = 0;
 		int i = 0;
-		
+/*		
 		Scanner s = new Scanner(System.in);
 		
 		while (o == 0 ){
@@ -28,6 +26,20 @@ public class Teste10 {
 		
 		s.close();
 		System.out.println("Ok.");
+		
+		
+		*/
+		
+		while (i < args.length)
+			System.out.println( args[i++] );
+		
+		i=0;
+		
+		do 
+			System.out.println( args.length>0 ?args[i++].toString():"null" );
+		while (i < args.length);
+		
+	
 	}
 	
 	
