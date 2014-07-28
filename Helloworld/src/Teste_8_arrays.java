@@ -23,9 +23,9 @@ public class Teste_8_arrays {
 		x[2][0] = 99;
 		
 		
-		meusShirts[0] = new Shirt(0, "Azul");
-		meusShirts[1] = new Shirt(1, "Amarelo");
-		meusShirts[2] = new Shirt(2, "Ambar");
+		meusShirts[0] = new Shirt("Marca",0, "Azul");
+		meusShirts[1] = new Shirt("Marca",1, "Amarelo");
+		meusShirts[2] = new Shirt("Marca",2, "Ambar");
 
 		System.out.println(matriz.length + "  " + matriz[0].length + "  "
 				+ matriz[2][3] + "  " + x[0][3] + "  " + x[2][0]);

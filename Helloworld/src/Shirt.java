@@ -55,7 +55,7 @@ public class Shirt {
 	
 	
 	public void imprime(){
-		System.out.println(brandShirt + "\n" + nomeShirt);	
+		System.out.println(brandShirt + "\n" + nomeShirt+ "\n" + precoShirt);	
 	}
 	
 	

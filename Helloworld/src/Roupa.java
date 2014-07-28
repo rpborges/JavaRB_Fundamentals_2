@@ -56,7 +56,7 @@ public abstract class Roupa {
 
 	
 	public String display(){
-		StringBuilder sb = new StringBuilder("Marca: " + rmarca + "\n");
+		StringBuilder sb = new StringBuilder(rid + "  Marca: " + rmarca + "\n");
 		sb.append(rnome ).append(" Preço: " + rpreco + "\n");
 		return sb.toString();
 	}

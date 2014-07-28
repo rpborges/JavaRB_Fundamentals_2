@@ -8,8 +8,8 @@ public class teste20 {
 		Calcas cl2 = new Calcas("Armani", 3, "Calça Homem","XXL");
 		cl2.setPreco(49.99);
 
-		Camisa cl3 = new Camisa("REGOJO", 2, "BASICO ", "BRANCO", 75.00, "L");
-		Camisa cl4 = new Camisa("Armani", 3, "HAITI","XXL");
+		Camisa cl3 = new Camisa("REGOJO", 4, "BASICO ", "BRANCO", 75.00, "L");
+		Camisa cl4 = new Camisa("Armani", 5, "HAITI","XXL");
 		cl4.setPreco(75.50);
 
 		System.out.println(cl.display());
@@ -17,6 +17,14 @@ public class teste20 {
 		System.out.println(cl2.display());
 		System.out.println(cl4.display());
 		
-		System.out.println(new Calcas("INOVE", 5, "TESTE CALÇAS ", "Castanho", 135, "M").display());
+		System.out.println(new Calcas("INOVE", 9, "TESTE CALÇAS ", "Castanho", 135, "M").display());
+		
+		System.out.println(cl4.getTipo());
+
+		Roupa cl6 = new Calcas("Grande", 10, "Boca de Sino ", "Verde", 87.5, "42");
+		
+		System.out.println(cl6.display());
+	
+		// ver como implementar interfaces             -- slides (12)
 	}
 }
