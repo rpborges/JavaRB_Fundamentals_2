@@ -28,8 +28,6 @@ public class Shirt {
 		precoShirt = preco;
 	}
 
-	double d = 12;
-
 	public String getNome() {
 		return nomeShirt;
 	}
@@ -46,6 +44,13 @@ public class Shirt {
 		shirtId = opt;
 	}
 
+	public String getCor() {
+		return corShirt;
+	}
+	
+	public void setCor(String cor) {
+		corShirt = cor;
+	}
 	
 	
 	
